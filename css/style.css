@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;k
+}
+
+a{
+ text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2rem;
+}
+
+.logo{
+    width: 10%;
+}
+.logo image{
+width: 100%;
+}
+
+header a{
+    color: #080808;
+    font-size: 16px;
+    margin-left: 25px;
+}
+
+#Main{
+    background-image: url(https://depot.qodeinteractive.com/wp-content/uploads/2017/01/h1-slide1-img.png);
+    background-position: center;
+    background-size: contain;
+    padding: 10rem 0;
+   
+}
+.main-text h2{
+    font-size: 50px;
+    margin-left: 15px;
+    color: #000;
+}
+.main-text p{
+    font-size: 16px;
+    color: #929292;
+    margin-left: 10px;
+}
+
+#Menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 4rem;
+}
+
+.decoration-menu a{
+    margin-left: 15px;
+    font-size: 15px;
+    color: #080808
+}
+
+.filter a{
+    margin-left: 10px;
+    color: #080808;
+}
+
+.Decoration{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 7rem;
+}
+
+.box{
+    width: 25%;
+    border: 1px #69707a;
+    border-radius: 3px;
+    transition: 3sn;
+}
+
+.dc-all .box{
+    width: 20%;
+    float: left;
+    margin: 0 1% 50PX;
+    border-radius: 5px;
+}
+
+.dc-all .box .top img{
+    width: 100%;
+    vertical-align: bottom;
+    border-radius: 7px 7px 0 0;
+}
+
+.dc-all .box .bottom{
+    text-align: center;
+    background-color: #fff;
+    padding: 13px 0;
+    border-radius: 0 0 7px 7px;
+}
