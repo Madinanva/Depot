@@ -71,12 +71,7 @@ header a{
     padding: 3rem 7rem;
 }
 
-.box{
-    width: 25%;
-    border: 1px #69707a;
-    border-radius: 3px;
-    transition: 3sn;
-}
+
 
 .dc-all .box{
     width: 20%;
